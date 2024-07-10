@@ -5,7 +5,7 @@ Esse módulo é um projeto utilizando o framework opinado NestJS
 
 ___
 ### Palavras chave:
->Nest
+>Nest, Prisma, Docker, ESLint, Prettier, Injeção de Dependências, 
 
 ## Conteúdo Programático do Módulo 5:
 
@@ -45,9 +45,38 @@ ___
 + `http localhost:3333` : Faz uma requisição simples dentro do projeto.
   >Precisa da instalação prévia do httpie.
 
-### Aula "Configurando ESLint e Prettier "
+### Aula "Configurando ESLint e Prettier"
 
 + `npm i eslint @rocketseat/eslint-config -D` : Instalação do ESLint
++ `npm run lint` : Corrige os erros de formatação automaticamente
+  >É um alias criado no package.json
+
+### Aula "Setup Docker Compose"
+
++ `docker compose up -d` : Roda o container do docker
+  >A opção `-d` permite que o container rode em segundo plano
+
+### Aula "Setup do Prisma"
+
++ `npm i prisma -D` : Instala o primsa
++ `npm i @prisma/client` : Instala o prisma cli
++ `npx prisma init` : Cria uma pasta `prisma` no projeto
++ `npx prisma migrate dev` : Cria uma migration.
++ `npx prisma studio` : Abre o prisma studio no navegador
+
+### Aula "Criando serviço do Prisma"
+
++ Configurações importantes do `tsconfig.json`:
+  >
+  ```
+    "strict": true,
+    "strictNullChecks": true,
+  ```
+
+### Aula "Gerando hash da senha"
+
++ `npm i bcryptjs` : Biblioteca para fazer hash de senha.
++ `npm i @types/bcryptjs -D` : Permite que o bcrypt seja entendido pelo typescript.
 
 ## Autoria e Créditos:
 
