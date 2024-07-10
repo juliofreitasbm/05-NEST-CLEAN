@@ -40,6 +40,8 @@ ___
 
 + `npm install -g @nestjs/cli` : Instalação global do Nest
 + `nest new 05-nest-clean` : Cria a pasta `05-nest-clean` com o projeto nest.
++ `npm run start:dev` : Roda o projeto.
+  >É um alias criado no package.json
 + `nmap localhost` : Mostra as portas sendo utilizadas pelo localhost.
   >Caso tenha problema com outra aplicação utilizando a porta 3000, que é usada por padrão pelo Nest, pode trocar a porta dentro do arquivo `src/main.ts`. Estamos utilizando a 3333.
 + `http localhost:3333` : Faz uma requisição simples dentro do projeto.
