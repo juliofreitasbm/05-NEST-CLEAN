@@ -108,8 +108,8 @@ ___
 + `base64 --wrap=0 private_key.pem > private_key-base64.txt` : Conversão da chave privada para base 64.
   > **_OBS1:_** Trocando o private por public da pra gerar a chave pública em base 64 também.
   > **_OBS2:_** O parâmetro --wrap=0 faz o .txt ser gerado sem quebras de linha.
-+ (Site JWT)[https://jwt.io/] para verificação dos tokens.
-+ Ferramenta de desenho online (Excalidraw)[https://excalidraw.com/]
++ [Site JWT](https://jwt.io/) para verificação dos tokens.
++ Ferramenta de desenho online [Excalidraw](https://excalidraw.com/)
 
 
 
