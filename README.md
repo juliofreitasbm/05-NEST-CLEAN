@@ -1,8 +1,6 @@
 # Módulo 5 de NodeJS Rocket-Seat
 
 Esse módulo é um projeto utilizando o framework opinado NestJS
-  > DDD é com conceito desconexo de Arquitetura de Software, pois na Arquitetura de Software já é trabalhada a parte ferramental, de linguagem de programação, da estrutura do projeto, etc.
-
 ___
 ### Palavras chave:
 >Nest, Prisma, Docker, ESLint, Prettier, Injeção de Dependências, JWT, Excalidraw, Public Keys, Private Keys, RSA256 
