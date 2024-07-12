@@ -109,7 +109,24 @@ ___
 + [Site JWT](https://jwt.io/) para verificação dos tokens.
 + Ferramenta de desenho online [Excalidraw](https://excalidraw.com/)
 
+### Aula "Protegendo rotas com Guards"
 
++ `npm i passport-jwt` : Instala o passport-jwt pra ajudar a configurar a strategy do passport.
++ `npm i @types/passport-jwt -D` : Instala o types para o passport
+  > **_OBS:_** [Link da documentação de autenticação do passport](https://docs.nestjs.com/recipes/passport#implementing-passport-jwt) dentro da documentação do nest.
+
+### Aula "Configurando Vitest com SWC"
+
++ [Documentação](https://docs.nestjs.com/recipes/swc) da compilacao do codigo typescript com swc, que é mais rápido para realização de testes.
++ `npm i vitest unplugin-swc @swc/core @vitest/coverage-v8 -D` : Instalação da configuração do vitest para typescript.
++ `npm i vite-tsconfig-paths -D` : Configuração dos paths com @.
++ `sudo chown -R [nome_do_usuario]:root [nome_do_diretorio]` : Mudar permissões dentro da pasta.
++ [Documentação](https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping) do Target Mapping do `tsconfig.json` no repositório da microsoft/TypeScript.
+
+### Aula "Banco de dados isolado nos testes"
+
+`npm i dotenv -D` : Carregar as variaveis .env nos testes
+`chmod -R a+rwx data` : Dando permissões dentro da pasta data no projeto.
 
 ## Autoria e Créditos:
 
