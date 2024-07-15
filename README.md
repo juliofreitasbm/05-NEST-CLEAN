@@ -23,7 +23,7 @@ ___
   + Mapeando propriedades
   + Abstraindo criação de entidades
   + Getters & Setters das entidades
-  + Path aliases e Vitest globals
+  + Path aliases e Vitest global
 
   ---
 </details>
@@ -125,8 +125,13 @@ ___
 
 ### Aula "Banco de dados isolado nos testes"
 
-`npm i dotenv -D` : Carregar as variaveis .env nos testes
-`chmod -R a+rwx data` : Dando permissões dentro da pasta data no projeto.
++ `npm i dotenv -D` : Carregar as variaveis .env nos testes.
++ `chmod -R a+rwx data` : Dando permissões dentro da pasta data no projeto.
+
+### Aula "Testes E2E de usuãrios"
+
++ `npm i supertest -D` : Instala o supertest
++ `npm i @types/supertest -D` : Instala o types para o supertest
 
 ## Autoria e Créditos:
 
