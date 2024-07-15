@@ -8,23 +8,133 @@ ___
 ## Conteúdo Programático do Módulo 5:
 
 <details style="font-size: 16px">
-<summary><strong style="font-size: 18px">1. Fundamentos do DDD</strong></summary>
+<summary><strong style="font-size: 18px">1. Fundamentos do Nest</strong></summary>
 
   ---
 
-  + Design de software e DDD
-  + Entidades e casos de uso
-  + Primeiro caso de uso
-  + Mapeando relacionamentos
-  + Value Object de slug
-  + Classe base de entidades
-  + Classe base de entidades
-  + ID das entidades
-  + Mapeando propriedades
-  + Abstraindo criação de entidades
-  + Getters & Setters das entidades
-  + Path aliases e Vitest global
+  + Introdução
+  + Criando Projeto com Nest
+  + Módulos, Serviços e Controllers
+  + Configurando ESLint e Prettier
+  + Setup Docker Compose
+  + Setup do Prisma
+  + Criando serviço do Prisma
+  + Controller de criação de conta
+  + Gerando hash da senha
+  + Criando Pipe de validação do Zod
+  + Extensão Rest Client no VSCode
+  + Usando ConfigModule no Nest.js
+  + Configurando autenticação JWT
+  + Gerando token JWT
+  + Controller de autenticação
+  + Protegendo rotas com Guards
+  + Criando decorator de autenticação
+  + Controller de criação de pergunta
+  + Controller de listagem de perguntas
+  + Configurando Vitest com SWC
+  + Banco de dados isolado nos testes
+  + Testes E2E de usuários
+  + Testes E2E de perguntas
+  ---
+</details>
 
+<details style="font-size: 16px">
+<summary><strong style="font-size: 18px">2. Desacoplando camadas no NestJS</strong></summary>
+
+  ---
+
+  + Entendendo as camadas
+  + Copiando camada de Domínio
+  + Criando camada de Infraestrutura
+  + Implementando repositórios do Prisma
+  + Conversa entre camadas (Mappers)
+  + Criando schema do Prisma
+  + Implementando QuestionsRepository
+  + Comunicação entre camadas
+  + Listando perguntas recentes
+  + Presenter de perguntas
+  + Gateways de Criptografia
+  + Casos de Uso: Autenticação e Cadastro
+  + Stubs de Criptografia
+  + Testes do cadastro e autenticação
+  + Implementação da Criptografia
+  + Refatorando controller de Autenticação
+  + Refatorando controller de Cadastro
+  + Tratando erros nos controllers
+  + Rotas privadas por padrão
+  + Criando EnvModule
+  ---
+</details>
+
+<details style="font-size: 16px">
+<summary><strong style="font-size: 18px">3. Implementando controllers e testes</strong></summary>
+
+  ---
+
+  + Finalizando Schema do Prisma
+  + Criando Mappers do Prisma
+  + Implementando Repositórios
+  + Controller: Buscar Pergunta por Slug
+  + Utilizando Factories nos Testes E2E
+  + Refatorando Testes E2E
+  + Controller: Editar Pergunta
+  + Controller: Deletar Pergunta
+  + Controller: Responder Pergunta
+  + Controller: Editar Resposta
+  + Controller: Deletar Resposta
+  + Controller: Listar Respostas da Pergunta
+  + Controller: Escolher Melhor Resposta
+  + Controller: Comentar Pergunta
+  + Controller: Deletar Comentário da Pergunta
+  + Controller: Comentar Resposta
+  + Controller: Deletar Comentário da Resposta
+  + Controller: Listar Comentários da Pergunta
+  + Controller: Listar Comentários da Resposta
+  ---
+</details>
+
+<details style="font-size: 16px">
+<summary><strong style="font-size: 18px">4. Uploads e Relacionamentos</strong></summary>
+
+  ---
+
+  + Controller upload de arquivo
+  + Caso de uso upload do anexo
+  + Testando caso de uso de upload
+  + Integração com Cloudflare R2
+  + Testando controller de upload
+  + Perguntas com anexos
+  + Persistindo anexos no banco
+  + Criando pergunta com anexos
+  + Editando perguntas com anexos
+  + Respostas com anexos
+  + Dados relacionados em uma API REST
+  + Value Object comentário com autor
+  + Listando comentários com autor
+  + Prisma comentário com autor
+  + Controller comentário com autor
+  + Comentário da resposta com autor
+  + Value Object detalhes da pergunta
+  + Testando retorno dos detalhes da pergunta
+  + Prisma e Controller detalhe da pergunta
+  ---
+</details>
+
+<details style="font-size: 16px">
+<summary><strong style="font-size: 18px">5. Eventos de Domínio & Cache</strong></summary>
+
+  ---
+
+  + Registrando Eventos de Domínio
+  + Testes E2E de Eventos de Domínio
+  + Disparando Eventos de Domínio
+  + Controller Leitura de Notificação
+  + Criando Repositório de Cache
+  + Integrando Cache no Prisma
+  + Criando Service do Redis
+  + Implementando Cache com Redis
+  + Testando Persistencia em Cache
+  + Ajustes no Cache
   ---
 </details>
 
