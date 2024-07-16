@@ -3,7 +3,7 @@
 Esse módulo é um projeto utilizando o framework opinado NestJS
 ___
 ### Palavras chave:
->Nest, Prisma, Docker, ESLint, Prettier, Injeção de Dependências, JWT, Excalidraw, Public Keys, Private Keys, RSA256 
+>Nest, Prisma, Docker, ESLint, Prettier, Injeção de Dependências, JWT, Excalidraw, Public Keys, Private Keys, RSA256, Bcrypt, Vitest, Super Test Library, Faker Library, Dayjs Library.
 
 ## Conteúdo Programático do Módulo 5:
 
@@ -238,10 +238,16 @@ ___
 + `npm i dotenv -D` : Carregar as variaveis .env nos testes.
 + `chmod -R a+rwx data` : Dando permissões dentro da pasta data no projeto.
 
-### Aula "Testes E2E de usuãrios"
+### Aula "Testes E2E de usuários"
 
 + `npm i supertest -D` : Instala o supertest
 + `npm i @types/supertest -D` : Instala o types para o supertest
+
+### Aula "Entendendo as camadas"
+
++ `npm i -D @faker-js/faker` : Instala a biblioteca faker
++ `npm i dayjs` : Instala a biblioteca dayjs
++ Alteração nas aparições de `MockInstance` para `let sendNotificationExecuteSpy: unknown`
 
 ## Autoria e Créditos:
 
