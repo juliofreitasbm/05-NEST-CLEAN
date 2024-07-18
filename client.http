@@ -6,8 +6,8 @@ POST {{baseUrl}}/accounts
 Content-Type: application/json
 
 {
-  "name": "Diego Fernandes 2",
-  "email": "diego@rocketseat2.com.br",
+  "name": "Diego Fernandes 5",
+  "email": "diego5@rocketseat.com.br",
   "password": "123456"
 }
 
@@ -29,9 +29,10 @@ POST {{baseUrl}}/questions
 Content-Type: application/json
 Authorization: Bearer {{authToken}}
 
+#Não pode repetir título
 {
-  "title": "Nova perguntas 3",
-  "content": "Conteúdo da pergunta 3"
+  "title": "Nova perguntas 4",
+  "content": "Conteúdo da pergunta 4"
 }
 
 ###

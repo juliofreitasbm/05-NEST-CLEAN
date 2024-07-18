@@ -249,6 +249,12 @@ ___
 + `npm i dayjs` : Instala a biblioteca dayjs
 + Alteração nas aparições de `MockInstance` para `let sendNotificationExecuteSpy: unknown`
 
+
+### Aula "Rotas privadas por padrão"
+
++ [Configuração de Rotas privadas por padrão](https://docs.nestjs.com/recipes/passport#enable-authentication-globally) na documentação do Nest.
++ Remover `"declaration":true` do tsconfig.json.
+
 ## Autoria e Créditos:
 
 + Documentação criada com carinho e dedicação por [Júlio César Freitas](https://github.com/juliofreitasbm) a serviço do [CREA-GO](https://www.creago.org.br/).
