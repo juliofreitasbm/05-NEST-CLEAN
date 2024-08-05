@@ -11,6 +11,14 @@ import { AuthenticateStudentUseCase } from '@/domain/forum/application/use-cases
 import { CryptographyModule } from '../cryptography.module.ts/cryptography.module'
 import { GetQuestionBySlugUseCase } from '@/domain/forum/application/use-cases/get-question-by-slug'
 import { GetQuestionBySlugController } from './controllers/get-question-by-slug.controller'
+import { EditQuestionController } from './controllers/edit-question.controller'
+import { EditQuestionUseCase } from '@/domain/forum/application/use-cases/edit-question'
+import { DeleteQuestionController } from './controllers/delete-question.controller'
+import { DeleteQuestionUseCase } from '@/domain/forum/application/use-cases/delete-question'
+import { AnswerQuestionController } from './controllers/answer-question.controller'
+import { AnswerQuestionUseCase } from '@/domain/forum/application/use-cases/answer-question'
+import { EditAnswerController } from './controllers/edit-answer.controller'
+import { EditAnswerUseCase } from '@/domain/forum/application/use-cases/edit-answer'
 
 @Module({
   imports: [DatabaseModule, CryptographyModule],
@@ -20,6 +28,10 @@ import { GetQuestionBySlugController } from './controllers/get-question-by-slug.
     CreateQuestionController,
     FetchRecentQuestionsController,
     GetQuestionBySlugController,
+    EditQuestionController,
+    DeleteQuestionController,
+    AnswerQuestionController,
+    EditAnswerController,
   ],
   providers: [
     CreateQuestionUseCase,
@@ -27,6 +39,10 @@ import { GetQuestionBySlugController } from './controllers/get-question-by-slug.
     RegisterStudentUseCase,
     AuthenticateStudentUseCase,
     GetQuestionBySlugUseCase,
+    EditQuestionUseCase,
+    DeleteQuestionUseCase,
+    AnswerQuestionUseCase,
+    EditAnswerUseCase,
   ],
 })
 export class HttpModule {}
