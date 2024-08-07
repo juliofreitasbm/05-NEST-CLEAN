@@ -255,6 +255,15 @@ ___
 + [Configuração de Rotas privadas por padrão](https://docs.nestjs.com/recipes/passport#enable-authentication-globally) na documentação do Nest.
 + Remover `"declaration":true` do tsconfig.json.
 
+### Aula "Controller upload de arquivo"
+
++ `npm i @types/multer -D` : Instala o types da multer, que é uma biblioteca para lidar com upload de arquivos.
++ `npm i @nestjs/common@latest` : Instala a última versão do nestjs.
+
+### Aula "Integração com Cloudflare R2"
+
++ `npm i @aws-sdk/client-s3` : Instala a SDK da Amazon
+
 ## Autoria e Créditos:
 
 + Documentação criada com carinho e dedicação por [Júlio César Freitas](https://github.com/juliofreitasbm) a serviço do [CREA-GO](https://www.creago.org.br/).
