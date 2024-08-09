@@ -50,7 +50,6 @@ export class InMemoryAnswersRepository implements AnswersRepository {
       answer.attachments.getRemovedItems(),
     )
 
-
     this.items[itemIndex] = answer
   }
 
