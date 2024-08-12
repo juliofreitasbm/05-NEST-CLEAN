@@ -1,6 +1,5 @@
 import { PaginationParams } from '@/core/repositories/pagination-params'
 import { QuestionCommentsRepository } from '@/domain/forum/application/repositories/question-comments-repository'
-import { StudentsRepository } from '@/domain/forum/application/repositories/students-repository'
 import { QuestionComment } from '@/domain/forum/enterprise/entities/question-comment'
 import { InMemoryStudentsRepository } from './in-memory-students-repository'
 import { CommentWithAuthor } from '@/domain/forum/enterprise/entities/value-objects/comment-with-author'
@@ -34,7 +33,7 @@ export class InMemoryQuestionCommentsRepository
     questionId: string,
     { page }: PaginationParams,
   ) {
-    const questionComment = this.items
+    const questionComments = this.items
       .filter((item) => item.questionId.toString() === questionId)
       .slice((page - 1) * 20, page * 20)
       .map((comment) => {
@@ -58,7 +57,7 @@ export class InMemoryQuestionCommentsRepository
         })
       })
 
-    return questionComment
+    return questionComments
   }
 
   async create(questionComment: QuestionComment) {
