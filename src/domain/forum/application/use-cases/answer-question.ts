@@ -41,7 +41,6 @@ export class AnswerQuestionUseCase {
         answerId: answer.id,
       })
     })
-    console.log(answerAttachments)
 
     answer.attachments = new AnswerAttachmentList(answerAttachments)
 
